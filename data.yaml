@@ -1,0 +1,8 @@
+train: D:/major_project_sus/frame_classification/train
+val: D:/major_project_sus/frame_classification/val
+
+names:
+  0: normal
+  1: suspicious
+
+nc: 2
