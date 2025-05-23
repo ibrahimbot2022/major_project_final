@@ -1,0 +1,11 @@
+# Ignore dataset and generated folders
+DCSASS Dataset/
+frame_classification/
+frame_classification_labels/
+preprocessed_dataset/
+processed_dataset/
+runs/
+split_dataset/
+
+# Ignore specific files
+data.yaml

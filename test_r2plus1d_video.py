@@ -60,7 +60,7 @@ from model_r2plus1d import R2Plus1D
 # clip_path = r"D:\major_project_sus\preprocessed_dataset\Fighting\Fighting002_x264_12\11.pt"
 # clip_path =r"D:\major_project_sus\preprocessed_dataset\Explosion\Explosion004_x264_9\5.pt"
 # clip_path =r"D:\major_project_sus\preprocessed_dataset\Abuse\Abuse048_x264_8\13.pt"
-clip_path =r"D:\major_project_sus\preprocessed_dataset\Arrest\Arrest003_x264_16\13.pt"
+clip_path =r"D:\major_project_sus\preprocessed_dataset\Fighting\Fighting002_x264_12\11.pt"
 model_path = r"D:\major_project_sus\best_r2plus1d_model.pth"
 num_classes = 14
 true_label_index = 6  # Update this to match the true label (e.g., 6 for 'Fighting')
@@ -112,4 +112,3 @@ predicted_class = class_names[predicted_index] if predicted_index < len(class_na
 print(f"\n✅ Predicted class index : {predicted_index}")
 print(f"🏷️ Predicted class label : {predicted_class}")
 print(f"📊 Confidence            : {confidence:.2f}%")
-print(f"💥 Loss                  : {loss.item():.4f}")
